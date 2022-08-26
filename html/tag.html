@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <title>HTML tag</title>
+
+
+    </head>
+    
+    <body>
+        <h1>HTML h1 tag</h1>
+        <hr />
+        <h2>문장표현</h2>
+        <p>AWS ( Amazon Web Service) <br/> - computing service</p>
+        <p>- storage service <br/> - network service</p>
+        <hr>
+        <h2>Hyper link</h2>
+        <a href="https://aws.amazon.com">AWS</a> 
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.naver.com">Naver</a>
+        <hr>
+
+        <h2>목록 태그</h2>
+        <ul>
+            <li>
+                <b>AWS Service</b>
+                <ol>
+                    <li>EC2</li>
+                    <li>EBS</li>
+                    <li>VPC</li>
+                </ol>
+            </li>
+
+            <li>
+                <b>EC2 instance</b>
+                <ol>
+                    <li>Scale up</li>
+                    <li>ELB</li>
+                    <li>Auto Scaling</li>
+                </ol>
+            </li>
+        </ul>
+
+        <hr>
+        <hr2>테이블 태그</hr2>
+        <table border="1">
+            <thread>
+                <tr>
+                    <th></th><th>월</th><th>화</th><th>수</th>
+                </tr>
+            </thread>
+            <tbody>
+                <tr>
+                    <td>1교시</td><td>EC2</td><td>EBS</td><td>Scale Up</td>
+                </tr>
+                <tr>
+                    <td>2교시</td><td>VPC</td><td>ELB</td><td>AudoScaling</td>
+                </tr>
+            </tbody>
+
+
+        </table>
+
+        <hr>
+        <h2> Table 태그 행열 합쳐서 표현</h2> 
+        <table>
+            <tr><th colspan="2">리전별 서비스</th></tr>
+            <tr>
+                <th rowspan="3">오레곤 (us -west-2)</th>
+                <td>&nbsp;&nbsp;;EC2&nbsp;&nbsp;</td>
+            </tr>
+            <tr><td>&nbsp;&nbsp;;EBS&nbsp;&nbsp;</td></tr>
+            <tr><td>&nbsp;&nbsp;;VPC&nbsp;&nbsp;</td></tr>
+            <tr>
+                <th rowspan="4">서울 ( ap-northeast-2 )</th>
+                <td>&nbsp;&nbsp;;EC2</td>
+            </tr>
+            <tr><td>&nbsp;&nbsp;;VPC&nbsp;&nbsp;</td></tr>
+            <tr><td>&nbsp;&nbsp;;EBS&nbsp;&nbsp;</td></tr>
+            <tr><td>&nbsp;&nbsp;;ELB&nbsp;&nbsp;</td></tr>
+
+
+        </table>
+
+        <hr>
+        <h2> form tag</h2>
+        <form method="POST">
+            <input type="text" name="text" value="text"/><br/>
+
+            <input type="password" name="password" value="password"/><br/>
+            <input type="file" name="file" value="file"/><br/>
+            <input type="checkbox" name="checkbox" value="checkbox"/>AWS<br/>
+            <input type="radio" name="radio" value="radio"/><br/>
+
+            <hr>
+            <input type="hidden" name="hidden" value="hidden"/><br/>
+            <hr>
+
+            <input type="button" value="checkbox"/><br/>
+            <input type="reset" value="reset"/><br/>
+            <input type="submit" value="submit"/><br/>
+            <input type="image" src="http://via.placeholder.com/350x150"/>
+        </form>
+
+    </body>
+</html>
+
+
